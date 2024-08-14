@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.componente {
+    background-color: #191F38;
+    width: 100vw; /*Viewport Width*/
+    height: 100vh; /*Viewport Heigth*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjeta{
+    background-color:#fff ;
+    padding: 32px 32px;
+    border-radius: 32px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column; /*cambia el eje principal (X = horizontal) por (Y = Vertical)*/
+    justify-content: center; /*eje principal (Y = vertical)*/
+    align-items: center; /*eje secundario (X = Horizontal)*/
+    gap: 16px;
+}
+
+.nombre{
+    color:#64BE2D;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.boton{
+    display: inline-block;
+    background-color:#64BE2D ;
+    padding: 16px 32px;
+    border-radius: 16px;
+    font-size: 20;
+color: #fff;
+text-decoration: none;
+transition: 0.3s ease-in-out;
+}
+
+.boton:hover{
+    background-color: darkgreen;
+    color: #64BE2D;
+
+}
